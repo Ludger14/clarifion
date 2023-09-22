@@ -1,0 +1,820 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Manrope;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+.w50{
+    width: 50%;
+}
+
+.w100{
+    width: 100%;
+}
+
+.desktop{
+    display: flex;
+}
+
+.mobile{
+    display: none;
+}
+
+/* Header */
+header{
+    width: 100%;
+}
+
+.dark-header{
+    width: 100%;
+    background: #252F3D;
+    padding: 12px 0;
+}
+
+.center{
+    max-width: 1500px;
+    flex-shrink: 0;
+    margin: 0 auto;
+}
+
+.dark-header span{
+    color: #FFF;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; 
+    text-transform: uppercase;
+}
+
+.white-header{
+    padding: 30px 0;
+}
+
+.logo{
+    width: 192px;
+    height: 36px;
+    flex-shrink: 0;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.antivirus .space-antivirus{
+    margin-right: 15px;
+}
+
+/* Main */
+
+main{
+    width: 100%;
+    padding: 30px 0;
+}
+
+main h1{
+    color: #000;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; 
+    text-transform: capitalize;
+}
+
+main p{
+    color: #4D5254;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; 
+    text-transform: capitalize;
+    padding: 8px 0;
+}
+
+.stepper span{
+    color: #000;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    padding: 2px 0;
+    text-transform: capitalize;
+}
+
+.stepper .circle{
+    position: relative;
+}
+
+.stepper .circle .check{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    transform: translate(20%, 25%);
+}
+
+.stepper .circle .unCheck{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(50%, 60%);
+}
+
+.content-spetial-offer{
+    border-radius: 10px;
+    background: #FAFAFA;
+    margin-top: 30px;
+    padding: 30px;
+}
+
+.container-center{
+    max-width: 1300px;
+    margin: 40px auto;
+    padding: 0 2%;
+}
+
+.leftSpecialOffer{
+    justify-content: space-between;
+}
+
+.stockSvg{
+    margin-top: 1px;
+}
+
+.specialOffer{
+    background: #FFF;
+    padding: 24px;
+    border-radius: 10px;
+}
+
+.specialOffer span.kenNames{
+    color: #333;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; 
+}
+
+.verifiedSVG{
+    margin: -2px 8px;
+}
+
+.specialOffer span.verified-customer{
+    color: #5BB59A;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; 
+}
+
+.specialOffer p{
+    color: #4D5254;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+}
+
+.detailSpecialOffer p{
+    color: #000;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    text-transform: capitalize;
+    padding-top: 0;
+}
+
+.oneTimeText{
+    color: #2C7EF8;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; 
+    text-transform: capitalize;
+}
+
+.svgHide{
+    display: inline-block;
+}
+
+.svgShow{
+    display: none;
+}
+
+.imagePreview{
+    width: 134px;
+    height: 134px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #2C7EF8;
+}
+
+.imagePreview img{
+    width: 100%;
+}
+
+.detailSpecialOffer h3{
+    color: #000;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; 
+    text-transform: capitalize;
+}
+
+.detailSpecialOffer h5{
+    color: #969696;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 5px;
+}
+
+.detailSpecialOffer h4{
+    color: #2C7EF8;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; 
+    text-transform: capitalize;
+}
+
+.detailSpecialOffer span.stock{
+    color: #37465A;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.detailSpecialOffer p.contentStock{
+    color: #4D5254;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; 
+}
+
+.right-detail{
+    justify-content: space-between;
+}
+
+.checkText{
+    color: #4D5254;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; 
+}
+
+.checkTextBold{
+    color: #4D5254;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+}
+
+.saveGet{
+    border-radius: 10px;
+    background: #EDF3FD;
+    padding: 0 10px;
+}
+
+.saveGet p{
+    color: #000;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; 
+}
+
+.saveGet p span.saveGetText{
+    color: #2C7EF8;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.btn-offer{
+    border-radius: 50px;
+    background: #59AE43;
+    padding: 16px 0;
+    border: none;
+    cursor: pointer;
+}
+
+.element-group{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.btn-offer span{
+    color: #FFF;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-right: 8px;
+}
+
+.btn-offer svg{
+    position: relative;
+    top: -2px;
+}
+
+.card-offer {
+    border-radius: 4px;
+    border: 1px solid #CFCFCF;
+    padding: 8px 16px;
+}
+
+.card-offer span{
+    color: #4D5254;
+    text-align: center;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+    text-transform: capitalize;
+    
+}
+
+.line-card{
+    width: 1px;
+    height: 16px;
+    background: #CFCFCF;
+}
+
+.card-offer svg.svgFree{
+    position: relative;
+    top: 2px;
+}
+
+.thanks a{
+    color: #F82C2C;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+}
+
+.imgGuarantee {
+    width: 100%;
+    max-width: 88px;
+}
+
+.guarantee p.guaranteeP{
+    color: #4D5254;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; 
+    text-align: left !important;
+}
+
+.guarantee p.guaranteeP span{
+    color: #4D5254;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+}
+
+/* Footer */
+footer{
+    width: 100%;
+}
+
+.dark-footer{
+    width: 100%;
+    background: #252F3D;
+    padding: 24px 0;
+}
+
+.dark-footer span{
+    color: #FFF;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; 
+    text-transform: uppercase;
+}
+
+.dark-footer svg{
+    position: relative;
+}
+
+.line-copyright{
+    width: 1px;
+    height: 24px;
+    position: relative;
+    top: 6px;
+}
+
+.dark-footer a{
+    color: #FFF;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; 
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.mobile-footer{
+    justify-content: space-between;   
+}
+
+.mobile-footer-left{
+    justify-content: flex-start;
+}
+
+.mobile-footer-right{
+    justify-content: flex-end;
+}
+
+.button-left{
+    display: none;
+}
+
+.button-right{
+    display: none;
+}
+
+.hide{
+    display: inline-block;
+}
+
+.hideContent{
+    display: flex;
+}
+
+.detail{
+    flex-wrap: nowrap;
+}
+
+.currency{
+    flex-wrap: nowrap;
+}
+
+.show{
+    display: none;
+}
+
+.contentSpecialOffer{
+    max-width: 575px;
+    width: 50%;
+}
+
+.detailSpecialOffer{
+    max-width: 575px;
+    width: 50%;
+}
+
+.detailSpecialOffer img{   
+    width: 100%;
+}
+
+.separator{
+    width: 80%;
+    border: 1px solid #CFCFCF;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.free-shipping{
+    padding: 0;
+}
+
+.free{
+    position: relative;
+}
+
+@media screen and (max-width: 1260px) { 
+
+    .leftSpecialOffer{
+        justify-content: center;
+    }
+
+    .contentSpecialOffer{
+        display: none;
+    }
+
+    .detailSpecialOffer{
+        width: 100%;
+    }
+
+    .hideContent{
+        display: none;
+    }
+
+    .detailSpecialOffer .show {
+        margin: 20px auto;
+    }
+
+    .detailSpecialOffer .show p{
+        margin: 0 auto;
+    }
+
+    .show{
+        display: block;
+    }
+
+    .detailSpecialOffer p{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .oneTimeText{
+        font-size: 1.5rem;
+    }
+
+    main{
+        padding: 0;
+        background: #FAFAFA;
+    }
+    
+}
+
+@media screen and (max-width: 1200px) {
+
+    .hide{
+        display: none;
+    }
+
+    .dark-header .center{
+        padding: 5px 2%;
+    }
+
+    .center{
+        padding: 2% 2% 0;
+    }
+
+    .button-left{
+        display: block;
+    }
+    
+    .button-right{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 940px) { 
+    
+    .leftSpecialOffer{
+        justify-content: center;
+    }
+
+    .stockSvg{
+        margin-top: 5px;
+    }
+
+    .saveGet{
+        padding: 8px;
+    }
+
+    .saveGet p{
+        font-size: 0.75rem;
+    }
+    
+    .saveGet p span.saveGetText{
+        font-size: 0.75rem;
+    }
+
+    .w50{
+        width: 100%;
+    }
+
+    .mobile-footer{
+        justify-content: center;
+        flex-wrap: wrap; 
+        align-items: center;
+    }
+
+    .mobile-footer-left{
+        justify-content: center;
+    }
+    
+    .mobile-footer-right{
+        justify-content: center;
+        margin: 10px 0;
+    }
+
+    .dark-footer span{
+        font-size: 0.75rem;
+    }
+    
+    .dark-footer a{
+        font-size: 0.75rem;
+    }    
+
+    .checkText{
+        font-size: 0.75rem;
+    }
+    
+    .checkTextBold{
+        font-size: 0.75rem;
+    }
+}
+
+@media screen and (max-width: 768px) { 
+    
+    .desktop{
+        display: none;
+    }
+    
+    .mobile{
+        display: flex;
+        flex-direction: column;
+    }
+
+    main h1{
+        font-size: 2rem;
+    }
+    
+    main p{
+        font-size: 1rem;
+    }
+
+    .free-shipping{
+        padding: 5px;
+    }
+
+    hr{
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+
+    .logo{
+        width: 106.667px;
+        height: 20px;
+    }
+
+    .svgHide{
+        display: none;
+    }
+    
+    .svgShow{
+        display: inline-block;
+    }
+
+    .button-left{
+        display: block;
+    }
+    
+    .button-right{
+        display: block;
+    }
+
+    .imagePreview{
+        width: 80px;
+        height: 80px;
+    }
+
+    .detailSpecialOffer h3{
+        font-size: 0.625rem;
+    }
+
+    .detailSpecialOffer h4{
+        font-size: 0.875rem;
+    }
+
+    .detailSpecialOffer h5{
+        margin-top: 2px;
+        padding-right: 10px;
+        font-size: 0.625rem;
+    }
+
+    .detailSpecialOffer span.stock{
+        font-size: 0.75rem;
+    }
+
+    .stockSvg{
+        margin-top: 3px;
+    }
+
+    .btn-offer span{
+        font-size: 0.875rem;
+    }
+
+    .guarantee p.guaranteeP{
+        font-size: 0.75rem;
+    }
+    
+    .guarantee p.guaranteeP span{
+        font-size: 0.75rem;
+    }
+
+    .thanks a{
+        font-size: 0.75rem;
+    }
+
+    .imgGuarantee {
+        max-width: 48px;
+        margin: 10px auto;
+    }
+
+    .stepper span{
+        font-size: 0.75rem;
+    }
+
+    .btn-offer{
+        padding: 5px 0;
+    }
+
+    .card-offer svg.svgFree{
+        top: 0;
+    }
+
+    .free svg{
+        position: relative;
+        top: 25%;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+    
+    .content-spetial-offer{
+        margin-top: 0 !important;
+    } 
+
+    .card-offer span{
+        font-size: 0.5rem;
+        
+    }
+    
+}
+
+@media screen and (max-width: 400px) { 
+
+    .detailSpecialOffer .show img{
+        max-width: 300px;
+        display: none;
+    }
+
+    .dark-footer span{
+        font-size: 0.625rem;
+    }
+    
+    .dark-footer a{
+        font-size: 0.625rem;
+    }
+
+    .detailSpecialOffer {
+        max-width: 300px;
+    }
+
+    .container-center{
+        margin: 0 auto;
+    }
+
+    .checkText{
+        font-size: 0.625rem;
+    }
+    
+    .checkTextBold{
+        font-size: 0.625rem;
+    }
+
+    .stockSvg{
+        margin-top: 3px;
+    }
+}
+
+@media screen and (max-width: 340px) { 
+
+    .checkText{
+        font-size: 0.5rem;
+    }
+    
+    .checkTextBold{
+        font-size: 0.5rem;
+    }
+
+    .detailSpecialOffer span.stock{
+        font-size: 0.625rem;
+    }
+}
+
+@media screen and (max-width: 320px) { 
+
+    .detailSpecialOffer span.stock{
+        font-size: 0.5rem;
+    }
+
+    .stockSvg{
+        margin-top: 0;
+    }
+}
+
